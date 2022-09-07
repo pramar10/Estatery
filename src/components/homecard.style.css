@@ -1,0 +1,72 @@
+.home-card {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  border-radius: 10px;
+  margin: 40px 0px 20px 20px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  z-index: -1;
+}
+
+.home-img img {
+  /* height: 120px; */
+  width: 320px;
+  border-radius: 10px 10px 0px 0px;
+}
+.home-rent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -5px 10px -5px 10px;
+}
+.home-rent p > span {
+  font-size: 18px;
+  font-weight: 700;
+  color: #6741d9;
+}
+.home-rent p {
+  color: #868e96;
+  font-weight: 600;
+}
+.home-name {
+  /* background-color: yellow; */
+  margin: -15px 10px 0px 10px;
+}
+.home-name p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #868e96;
+  margin-top: -10px;
+}
+.horizontal-line {
+  border-bottom: 1px solid lightgray;
+  margin: 0px 10px 0px 10px;
+}
+
+.room-detail {
+  margin: -0px 10px 10px 10px;
+  display: flex;
+}
+.fav-icon {
+  border: 1px solid #dee2e6;
+  border-radius: 50px;
+  color: #6741d9;
+  padding: 5px;
+}
+.home-img {
+  position: relative;
+}
+.home-img p {
+  position: absolute;
+  height: 20px;
+  background-color: #6741d9;
+  bottom: -20px;
+  left: 0;
+  border-radius: 0px 10px 10px 0px;
+  color: #fff;
+  display: flex;
+  padding: 0px 10px;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+}

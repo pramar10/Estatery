@@ -1,0 +1,39 @@
+.filter-card {
+  background-color: #fff;
+  width: 250px;
+  height: 70px;
+  padding: 10px;
+}
+.main-filter-card {
+  display: flex;
+  align-items: center;
+}
+.vertical-line {
+  border-left: 2px solid lightgray;
+  height: 50px;
+  /* margin-right: 50px; */
+}
+.filter-div-subheading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+.filter-heading {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #adb5bd;
+}
+.filter-div-subheading p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+.down-filter {
+  color: #7048e8;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: #f3f0ff;
+  margin-right: 10px;
+}

@@ -1,0 +1,21 @@
+.filter-div-subheading:hover {
+  cursor: pointer;
+}
+.modal {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  align-items: center;
+  border-radius: 10px;
+}
+.modal p {
+  cursor: pointer;
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+.modal p:hover {
+  background-color: #dee2e6;
+  border-radius: 10px;
+}
