@@ -2,12 +2,12 @@ import React from "react";
 import "./homecard.style.css";
 import { AiOutlineHeart } from "react-icons/ai";
 import Capsule from "./Capsule";
-const HomeCard = ({ pic, price, restaurant, location, details }) => {
+const HomeCard = ({ pic, price, restaurant, location, details, badge }) => {
   return (
     <div className="home-card">
       <div className="home-img">
-        <p>Hello</p>
-        <img src={pic} alt={"capsule"}/>
+        {badge && <p>popular</p>}
+        <img src={pic} alt={"capsule"} />
       </div>
       <div className="home-rent">
         <p>

@@ -7,6 +7,7 @@ const dummyData = [
     location: "266 Green Valley, Highland Lake, FL",
     details: ["3 Beds", "2 Bathrooms", " 5x7m²"],
     propertyType: "Houses",
+    badge: true,
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ const dummyData = [
     location: "2821 Lake Sevilla, Palm Harbour, TX",
     details: ["4 Beds", "2 Bathrooms", " 6x7.5m²"],
     propertyType: "Vila",
+    badge: true,
   },
   {
     id: 3,
@@ -61,6 +63,7 @@ const dummyData = [
     location: "12Th Main Koramangala",
     details: ["3 Beds", "2 Bathrooms", " 5x7m²"],
     propertyType: "Flat",
+    badge: true,
   },
   {
     id: 8,
@@ -79,6 +82,7 @@ const dummyData = [
     location: "14th Cross Road South End Circle, Jaya Nagar",
     details: ["3 Beds", "2 Bathrooms", " 5x7m²"],
     propertyType: "TownHouse",
+    badge: true,
   },
   {
     id: 10,
@@ -106,6 +110,7 @@ const dummyData = [
     location: "1020 Fedora St, Los Angeles, CA",
     details: ["3 Beds", "2 Bathrooms", " 5x7m²"],
     propertyType: "Flat",
+    badge: true,
   },
 ];
 export default dummyData;

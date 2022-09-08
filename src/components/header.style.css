@@ -4,7 +4,17 @@
   background-color: #fff;
   border-bottom: 1px solid lightgray;
 }
-
+@media screen and (max-width: 1400px) {
+  .div-header,
+  .real-state-logo {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.header-arrow {
+  display: flex;
+  /* margin-left: 2px; */
+}
 ul {
   display: flex;
   list-style: none;

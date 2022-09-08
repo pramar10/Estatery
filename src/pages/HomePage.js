@@ -65,6 +65,7 @@ const HomePage = () => {
               restaurant={item.restaurant}
               location={item.location}
               details={item.details}
+              badge={item.badge}
             />
           );
         })}

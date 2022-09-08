@@ -13,11 +13,13 @@
   width: 320px;
   border-radius: 10px 10px 0px 0px;
 }
+
 .home-rent {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: -5px 10px -5px 10px;
+  cursor: pointer;
 }
 .home-rent p > span {
   font-size: 18px;
@@ -50,11 +52,13 @@
 .fav-icon {
   border: 1px solid #dee2e6;
   border-radius: 50px;
-  color: #6741d9;
   padding: 5px;
+  cursor: pointer;
 }
+
 .home-img {
   position: relative;
+  cursor: pointer;
 }
 .home-img p {
   position: absolute;

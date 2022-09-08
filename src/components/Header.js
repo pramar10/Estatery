@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { logout, selectUser } from "../redux/user";
 import { auth } from "../firebase/firebase";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 const Header = () => {
   const dispatch = useDispatch();
@@ -29,8 +30,12 @@ const Header = () => {
           <li>Rent</li>
           <li>Buy</li>
           <li>Sell</li>
-          <li>Manage Property</li>
-          <li>Resources</li>
+          <li className="header-arrow">
+            Manage Property <KeyboardArrowDownIcon />
+          </li>
+          <li className="header-arrow">
+            Resources <KeyboardArrowDownIcon />
+          </li>
         </ul>
       </div>
       {!user && (
